@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 
-console.log(import.meta.env.VITE_SOME_KEY) 
+const test = Number(import.meta.env.VITE_SOME_KEY)
+
+console.log(test + 800)
 </script>
 
 <template>
